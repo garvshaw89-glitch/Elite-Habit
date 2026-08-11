@@ -1,0 +1,6 @@
+{
+  "name": "Elite Habit",
+  "description": "An elite, data-driven Personal Routine & Habit Coach specializing in fitness, nutrition, and academic productivity powered by Gemini API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

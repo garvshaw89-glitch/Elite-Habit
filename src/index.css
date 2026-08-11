@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emerald: #10b981;
+    --color-emerald-hover: #34d399;
+    --color-[#10b981]: #10b981;
+    --bg-dark: #070908;
+    --bg-panel: #0d120f;
+  }
+
+  body {
+    background-color: #070908;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.08) 0%, transparent 60%),
+      radial-gradient(circle at 100% 100%, rgba(5, 150, 105, 0.05) 0%, transparent 50%),
+      linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 100% 100%, 100% 100%, 32px 32px, 32px 32px;
+    color: #f4f4f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Georgia', Cambria, "Times New Roman", Times, serif;
+  }
+}
+
+/* Custom Texture & Noise Effects */
+.carbon-card {
+  background: linear-gradient(135deg, rgba(13, 18, 15, 0.95) 0%, rgba(8, 12, 10, 0.98) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.emerald-glow {
+  box-shadow: 0 0 20px -3px rgba(16, 185, 129, 0.25);
+}
+
+/* Custom Sophisticated Dark Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #070908;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 185, 129, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 185, 129, 0.6);
+}
+
