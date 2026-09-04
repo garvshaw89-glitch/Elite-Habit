@@ -54,7 +54,7 @@ Follow these steps to set up the Elite Habit app locally on your machine.
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/your-username/elite-habit.git
+git clone https://github.com/garvshaw89-glitch/elite-habit.git
 cd elite-habit
 
 ```
