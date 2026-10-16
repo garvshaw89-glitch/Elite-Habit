@@ -1,4 +1,4 @@
-# Elite Habit 🚀🏋️‍♂️
+# Elite Habit 🏋️‍♂️
 
 > A comprehensive task management and fitness routine organizer designed to help you build elite daily habits, track hypertrophy workouts, and manage your schedule seamlessly.
 
